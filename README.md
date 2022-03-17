@@ -1,6 +1,6 @@
 Expense tracker app
 
-Download and extract files. Launch Index.html in browswer to use.
+Download a zip file of the project and extract files.  Launch Index.html in browswer to use.
 
 
 Enter the name (or location) of where the expense ocurred, the date and the amount.  
