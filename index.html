@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link href="css/style.css" rel="stylesheet" />
+      <title>Expense Tracker</title>
+      <h1>Expense Tracker</h1>
+      <header>Add A New Item:</header>
+  </head>
+  <body>
+    <form>
+    <label for:='name'>Name:</label><input type='text' placeholder="Where was the expense made?" id='nameInput'><br>
+    <label for:='date'>Date:</label><input type='date' id='date'><label for:='amount'>Amount:</label><input type='text' id='amount'><br> 
+      <div><button type='button' id='addButton' onclick='add()'>Add Expense</button></div> <!-- on click the Add Expense button will call the 'add' function -->
+      
+    <table id="table1">
+      <tr>
+        <th>Name</th>        
+        <th>Date</th>        
+        <th>Amount</th> 
+      </tr>    
+    </table>
+    
+    </form>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
