@@ -1,16 +1,16 @@
-let table = document.getElementById('table1'); // create a variable named 'table' and assign it the value of the HTML element with the id 'table1'.
-let name1; // create a variable named 'name1'.
-let date; // create a variable named 'date'.
-let amount; // create a variable named 'amount'.
+let table = document.getElementById('table1'); 
+let name1; 
+let date; 
+let amount; 
 
 
 
-function add() { // create a function named 'add'.
-  addItem(); // calls the function 'addItem' when the 'add' function is called.
-  clear(); // calls the function 'clear' when the 'add' function is called.
+function add() { 
+  addItem(); 
+  clear(); 
 }
 
-function addItem() { // creates a function named 'addItem'
+function addItem() { 
   name1 = document.getElementById('nameInput').value; // define the variable 'name1' as the value of the HTML element with the id 'nameInput'.
   date = document.getElementById('date').value; //  define the varaible 'date' as the HTML element with the id 'date'
   amount = document.getElementById('amount').value; // define the varaible 'amount' as the HTML element with the id 'amount'
